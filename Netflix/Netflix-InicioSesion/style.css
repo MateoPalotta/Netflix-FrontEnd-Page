@@ -1,0 +1,117 @@
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.5) url(imagenes/AR-es-20230522-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-blend-mode: darken;
+}
+
+.logo{
+    position: relative;
+    z-index: 2;
+    height: 90px;
+    width: 1300px;
+}
+
+.logo img{
+    width: 167px;
+    position: absolute;
+    top: 50%;
+    right: 89%;
+    transform: translate(40% , -50%);
+}
+
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 440px;
+    height: 590px;
+    background-color: rgba(3, 3, 3, 0.7);
+}
+
+.container h1{
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+
+input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+    background-color: rgb(125, 119, 119);
+}
+
+label{
+    color: rgb(125, 119, 119);
+    font-size: 15px;
+}
+
+.form a{
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px;
+    color: rgb(125, 119, 119);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.content{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.content h2{
+    color: rgb(125, 119, 119);
+}
+
+.content h3{
+    color: rgb(125, 119, 119);
+    font-size: 12.5px;
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
